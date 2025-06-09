@@ -72,9 +72,3 @@ animes = {
     }
 
 }
-    print(f"Estúdio de Animação: {anime['estúdio de animação']}")
-    print(f"Diretor: {anime['Diretor']}")
-else:
-    print("Anime não encontrado.")
-
-    
