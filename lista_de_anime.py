@@ -72,27 +72,6 @@ animes = {
     }
 
 }
-
-print("Anime List")
-print("Escolha um anime para ver as informações:")
-print("1 - Black Lagoon")
-print("2 - Darker Than Black: Kuro No Keiyakusha")
-print("3 - Sangatsu no Lion")   
-print("4 - Sword Art Online: Alicization")
-print("5 - Akagami No Shirayuki-hime")
-print("6 - Akatsuki no Yona")
-print("7 - Clannad")
-print("0 - Sair")
-
-escolha = input("Digite o número do anime: ")
-
-if escolha == "0":
-    print("Saindo...")
-elif escolha in animes:
-    anime = animes[escolha]
-    print(f"Nome: {anime['nome']}")
-    print(f"Gêneros: {anime['gêneros']}")
-    print(f"Autor: {anime['autor']}")
     print(f"Estúdio de Animação: {anime['estúdio de animação']}")
     print(f"Diretor: {anime['Diretor']}")
 else:
